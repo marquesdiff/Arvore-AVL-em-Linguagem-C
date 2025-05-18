@@ -2,7 +2,7 @@
 
 # Árvore AVL ⤵
 
-Este repositório contém uma implementação em C de uma **Árvore AVL (Adelson-Velsky e Landis)**. Uma Árvore AVL é uma **Árvore Binária de Busca (BST) autobalanceada**. Isso significa que, após cada operação de inserção ou remoção, a árvore ajusta sua estrutura (através de **rotações**) para garantir que a diferença de altura entre as subárvores esquerda e direita de qualquer nó (conhecida como **fator de balanceamento**) nunca seja maior que 1 (ou seja, pode ser -1, 0 ou 1).
+Este repositório contém uma implementação em C de uma **Árvore AVL (Adelson-Velsky e Landis)**. Uma Árvore AVL é uma **Árvore Binária de Busca (BST) autobalanceada**. Isso significa que, após cada operação de inserção ou remoção, a árvore ajusta sua estrutura (através de **rotações**) para garantir que a **diferença** de altura entre as subárvores esquerda e direita de qualquer nó (conhecida como **fator de balanceamento**) nunca seja maior que 1 (ou seja, pode ser -1, 0 ou 1).
 
 Essa propriedade de balanceamento é o que torna as Árvores AVL tão eficientes. Em uma BST comum, se os elementos forem inseridos em uma ordem já ordenada (por exemplo, 1, 2, 3, 4, 5), a árvore pode se **degenerar** em uma estrutura semelhante a uma lista encadeada. Nesses casos, as operações de busca, inserção e remoção, que em uma BST balanceada seriam muito rápidas, acabam tendo um desempenho de tempo linear 'O(n)', o que é ineficiente para grandes conjuntos de dados.
 
